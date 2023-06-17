@@ -16,10 +16,10 @@ Finally, to start the application use
 
 ## Authentication
 Authentication is handled using JWT tokens. To login, you can POST to the /login endpoint with the following body:
-``` {
+`` {
   "username": "your_username",
   "password": "your_password"
-} ```
+} `` 
 
 If the login is successful, the server will return a JWT token. You can use this token to access the other endpoints.
 
