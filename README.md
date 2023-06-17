@@ -16,17 +16,17 @@ Finally, to start the application use
 
 ## Authentication
 Authentication is handled using JWT tokens. To login, you can POST to the /login endpoint with the following body:
-` {
+``` {
   "username": "your_username",
   "password": "your_password"
-} `
+} ```
 
 If the login is successful, the server will return a JWT token. You can use this token to access the other endpoints.
 
 ### Endpoints
 The following endpoints are available:
 
-- `signup`: To Signup A User
+- `/signup`: To Signup A User
 - `/login`: Used to login a user.
 - `/tasks`: Get all tasks for the current user.
 - `/tasks/:id`: Get a task by id.
@@ -39,10 +39,9 @@ The following endpoints are available:
 
 ### Testing
 The application includes unit tests written using Jest. To run the tests, you can run the following command:
-` 
-npm test
 
-`
+` npm test `
+
 
 ## Further Development
 
